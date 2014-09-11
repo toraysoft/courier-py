@@ -7,7 +7,7 @@ url="https://github.com/toraysoft/courier-py"
 
 long_description="Courier (A SMS Broker) Client for Python"
 
-setup(name="courier",
+setup(name="courier-py",
       version=version,
       description=long_description,
       maintainer="jeff kit",
