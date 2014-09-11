@@ -27,6 +27,6 @@ Courier (A SMS Broker) Client for Python
 
 校验验证码：
 
-    >>> cli.veryfi_code('13800138000', '832233')
+    >>> cli.verify_code('13800138000', '832233')
     True
 
