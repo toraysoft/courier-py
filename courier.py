@@ -28,7 +28,6 @@ class CourierClient(object):
         params['sign'] = sign
         query = urllib.urlencode(params)
         rsp = urllib2.urlopen(self.host + url + '?' + query).read()
-        print rsp
         return json.loads(rsp)
 
     def get_code(self, mobile, code=None, expire=0):
